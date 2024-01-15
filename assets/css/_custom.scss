@@ -1,0 +1,82 @@
+@charset 'UTF-8';
+body{
+    font : 400 normal 1.2rem $font-pri;
+    line-height: 1.5rem;
+}
+h2{
+   font-size: 1.5rem;
+}
+h3{
+    font-size: 1rem;
+}
+h4{
+    font-size: 0.8rem;
+}
+p{
+    font-size: 0.8rem;
+}
+.price{
+    font : 700 normal 1rem 'Prompt';
+   color:  #FE6383;
+}
+.category{
+    font : 400 normal 0.8rem $font-pri;
+    color: #969696;
+}
+.btn-pri{
+    margin: 15px 0 0;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 0.9rem;
+    width: 100%;
+    display: block;
+    background: $color-pri;
+    color: #fff;
+    &.-pri{
+        font-size: 0.8rem;
+        padding: 10px 0;
+    }
+    &.-edit{
+        background: #4a4a4a;
+    }
+    &.-sky{
+        margin: 15px 0 0;
+        padding: 10px 0;
+        text-align: center;
+        font-size: 0.7rem;
+        width: 100%;
+        display: block;
+        background: $color-sky;
+        color: #fff;
+    }
+    &.-skypri{
+        margin: 0;
+        padding: 10px 0;
+        text-align: center;
+        font-size: 0.7rem;
+        width: 100%;
+        display: block;
+        background: $color-sky;
+        color: #fff;
+    }
+    &.-easy{
+        margin: 0;
+        padding: 10px 0;
+        text-align: center;
+        font-size: 0.7rem;
+        width: 100%;
+        display: block;
+        background: #e4e4e4;
+        color: #000;
+    }
+    &.-face{
+        margin: 15px 0 0;
+        padding: 10px 0;
+        text-align: center;
+        font-size: 0.7rem;
+        width: 100%;
+        display: block;
+        background: #3b69d9;
+        color: #fff;
+    }
+}

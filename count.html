@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>BluePaca</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/vendor/light-slider/css/lightslider.css">
+</head>
+
+<body>
+
+    <!-- Log-In -->
+    <div class="box-login" id="boxLogin">
+        <div class="item-box">
+            <div class="close-log">
+                <i class="far fa-times-circle" id="closeLogin"></i>
+            </div>
+            <div class="header-login w-100 d-flex flex-wrap">
+                <div class="item w-50">
+                    <h2 class="title text-bold">LOGIN</h2>
+                </div>
+                <div class="item w-50 text-right">
+                    <a href="register-cart.html">
+                        <div class="regis text-pri ">
+                            <i class="fas fa-chevron-circle-right"></i>&nbsp;REGISTER</div>
+                    </a>
+                </div>
+            </div>
+            <div class="input-group mb-3 mt-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1">
+                        <i class="fas fa-user"></i>
+                    </span>
+                </div>
+                <input type="text" class="form-control" placeholder="USERNAME OR EMAIL" aria-label="Username" aria-describedby="basic-addon1">
+            </div>
+            <div class="input-group mb-3 mt-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1">
+                        <i class="fas fa-lock-alt"></i>
+                    </span>
+                </div>
+                <input type="password" class="form-control" placeholder="PASSWORD" aria-label="Username" aria-describedby="basic-addon1">
+            </div>
+
+            <div class="form-check ">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">REMEMBER ME</label>
+            </div>
+
+
+            <div class="lost-log pt-4 w-100 d-flex flex-nowrap align-items-center">
+                <div class="item w-50">
+                    <a href="#">
+                        <p class="lost-pass">Lost your password?</p>
+                    </a>
+                </div>
+                <div class="item -log w-50 text-right">
+                    <a href="#" class="btn-pri -sky">LOGIN</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Register-Box -->
+    <div class="box-login" id="boxRegis">
+        <div class="item-box">
+            <div class="close-log">
+                <i class="far fa-times-circle" id="closeRegis"></i>
+            </div>
+            <div class="header-login w-100 d-flex flex-wrap">
+                <div class="item w-50">
+                    <h2 class="title text-bold">REGISTER</h2>
+                </div>
+                <div class="item w-50 text-right">
+                    <a href="login-cart.html">
+                        <div class="regis text-pri ">
+                            <i class="fas fa-chevron-circle-right"></i>&nbsp;LOGIN</div>
+                    </a>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputEmail4">EMAIL&nbsp;
+                    <span>*</span>
+                </label>
+                <input type="email" class="form-control" placeholder="">
+            </div>
+            <div class="form-group">
+                <label for="inputEmail4">USERNAME&nbsp;
+                    <span>*</span>
+                </label>
+                <input type="text" class="form-control" placeholder="">
+            </div>
+            <div class="form-group">
+                <label for="inputEmail4">PASSWORD&nbsp;
+                    <span>*</span>
+                </label>
+                <input type="password" class="form-control" placeholder="">
+            </div>
+            <div class="form-group">
+                <label for="inputEmail4">CONFIRM PASSWORD&nbsp;
+                    <span>*</span>
+                </label>
+                <input type="password" class="form-control" placeholder="">
+            </div>
+
+
+
+            <div class="lost-log w-100 d-flex flex-nowrap align-items-center">
+                <div class="item -regis w-50">
+                    <a href="#" class="btn-pri -sky">REGISTER</a>
+                </div>
+                <div class="item  w-50 text-right">
+                    <a href="#" class="btn-pri -face">
+                        <i class="fab fa-facebook-square"></i>&nbsp;&nbsp;&nbsp;&nbsp;FACEBOOK</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Wish-List -->
+    <div class="wish-list" id="wishlistBox">
+        <div class="item-wishlist">
+            <div class="header-wishlist w-100 d-flex flex-nowrap">
+                <div class="item w-50">
+                    <p id="closeWishlist">
+                        <i class="far fa-chevron-left"></i>&nbsp;&nbsp;WISH LIST</p>
+                </div>
+                <div class="item w-50 text-right">
+                    <div class="wishlist">
+                        <i class="fas fa-heart"></i>
+                        <div class="count">2</div>
+                    </div>
+                </div>
+            </div>
+            <div class="list-wishlist w-100 d-flex flex-nowrap">
+                <div class="item -products">
+                    <figure class="thumbnail">
+                        <img src="assets/img/products-fs1.png" alt="">
+                    </figure>
+                    <div class="like-wishlist">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                </div>
+                <div class="item">
+                    <p class="title ">COSMETIC WHITENING FACE LOTION</p>
+                    <div class="category pt-1 pb-2">Brand Name</div>
+                    <p class="price">390 บาท</p>
+                </div>
+            </div>
+            <div class="list-wishlist w-100 d-flex flex-nowrap">
+                <div class="item -products">
+                    <figure class="thumbnail">
+                        <img src="assets/img/products-fs2.png" alt="">
+                    </figure>
+                    <div class="like-wishlist">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                </div>
+                <div class="item">
+                    <p class="title ">COSMETIC WHITENING FACE LOTION</p>
+                    <div class="category pt-1 pb-2">Brand Name</div>
+                    <p class="price">390 บาท</p>
+                </div>
+            </div>
+            <div class="list-wishlist w-100 d-flex flex-nowrap">
+                <div class="item -products">
+                    <figure class="thumbnail">
+                        <img src="assets/img/products-fs2.png" alt="">
+                    </figure>
+                    <div class="like-wishlist">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                </div>
+                <div class="item">
+                    <p class="title ">COSMETIC WHITENING FACE LOTION</p>
+                    <div class="category pt-1 pb-2">Brand Name</div>
+                    <p class="price">390 บาท</p>
+                </div>
+            </div>
+            <div class="list-wishlist w-100 d-flex flex-nowrap">
+                <div class="item -products">
+                    <figure class="thumbnail">
+                        <img src="assets/img/products-fs1.png" alt="">
+                    </figure>
+                    <div class="like-wishlist">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                </div>
+                <div class="item">
+                    <p class="title ">COSMETIC WHITENING FACE LOTION</p>
+                    <div class="category pt-1 pb-2">Brand Name</div>
+                    <p class="price">390 บาท</p>
+                </div>
+            </div>
+            <div class="list-wishlist w-100 d-flex flex-nowrap">
+                <div class="item -products">
+                    <figure class="thumbnail">
+                        <img src="assets/img/products-fs2.png" alt="">
+                    </figure>
+                    <div class="like-wishlist">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                </div>
+                <div class="item">
+                    <p class="title ">COSMETIC WHITENING FACE LOTION</p>
+                    <div class="category pt-1 pb-2">Brand Name</div>
+                    <p class="price">390 บาท</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!-- Cart-List -->
+     <div class="wish-list" id="cartlistBox">
+            <div class="item-wishlist">
+                <div class="header-wishlist w-100 d-flex flex-nowrap">
+                    <div class="item w-50">
+                        <p id="closecartlist">
+                            <i class="far fa-chevron-left"></i>&nbsp;&nbsp;CART</p>
+                    </div>
+                    <div class="item w-50 text-right">
+                        <div class="wishlist">
+                                <i class="far fa-shopping-basket"></i>
+                            <div class="count">2</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="list-wishlist w-100 d-flex flex-nowrap">
+                    <div class="item -products">
+                        <figure class="thumbnail">
+                            <img src="assets/img/products-fs1.png" alt="">
+                        </figure>
+                        <div class="like-wishlist">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <p class="title ">COSMETIC WHITENING FACE LOTION</p>
+                        <div class="category pt-1 pb-2">Brand Name</div>
+                        <p class="price">390 บาท</p>
+                    </div>
+                </div>
+                <div class="list-wishlist w-100 d-flex flex-nowrap">
+                    <div class="item -products">
+                        <figure class="thumbnail">
+                            <img src="assets/img/products-fs2.png" alt="">
+                        </figure>
+                        <div class="like-wishlist">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <p class="title ">COSMETIC WHITENING FACE LOTION</p>
+                        <div class="category pt-1 pb-2">Brand Name</div>
+                        <p class="price">390 บาท</p>
+                    </div>
+                </div>
+                <div class="list-wishlist w-100 d-flex flex-nowrap">
+                    <div class="item -products">
+                        <figure class="thumbnail">
+                            <img src="assets/img/products-fs2.png" alt="">
+                        </figure>
+                        <div class="like-wishlist">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <p class="title ">COSMETIC WHITENING FACE LOTION</p>
+                        <div class="category pt-1 pb-2">Brand Name</div>
+                        <p class="price">390 บาท</p>
+                    </div>
+                </div>
+                <div class="list-wishlist w-100 d-flex flex-nowrap">
+                    <div class="item -products">
+                        <figure class="thumbnail">
+                            <img src="assets/img/products-fs1.png" alt="">
+                        </figure>
+                        <div class="like-wishlist">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <p class="title ">COSMETIC WHITENING FACE LOTION</p>
+                        <div class="category pt-1 pb-2">Brand Name</div>
+                        <p class="price">390 บาท</p>
+                    </div>
+                </div>
+                <div class="list-wishlist w-100 d-flex flex-nowrap">
+                    <div class="item -products">
+                        <figure class="thumbnail">
+                            <img src="assets/img/products-fs2.png" alt="">
+                        </figure>
+                        <div class="like-wishlist">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <p class="title ">COSMETIC WHITENING FACE LOTION</p>
+                        <div class="category pt-1 pb-2">Brand Name</div>
+                        <p class="price">390 บาท</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+       <!-- Main-Nav -->
+       <nav class="main-nav">
+            <div class="top-menu">
+                <div class="container">
+                    <div class="top-box w-100 d-flex flex-wrap">
+                        <ul class="main-menu">
+                            <li>
+                                <a href="index.html">หน้าหลัก</a>
+                            </li>
+                            <li>
+                                <a href="condition-services.html">เงื่อนไขการบริการ</a>
+                            </li>
+                            <li>
+                                <a href="pay1.html">การชำระเงิน</a>
+                            </li>
+                            <li>
+                                <a href="contact-us.html">ติดต่อเรา</a>
+                            </li>
+                        </ul>
+                        <ul class="social-menu text-right">
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-facebook"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <div class="tab-login">
+                            <div class="user-tab">
+                                <div class="user-log">
+                                    <i class="fas fa-user"></i>&nbsp;&nbsp;ระบบสมาชิก
+                                </div>
+                                <ul class="sub-login">
+                                    <li>
+                                        <a href="#" id="btnLogin">เข้าสู่ระบบ&nbsp;&nbsp;
+                                            <i class="fas fa-key"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" id="btnRegis">ลงทะเบียน&nbsp;&nbsp;
+                                            <i class="fas fa-edit"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="cart-menu w-100 d-flex flex-wrap">
+                    <div class="main-logo">
+                        <img src="assets/img/main-logo.png" alt="">
+                    </div>
+                    <div class="form-search">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="ค้นหาสินค้า">
+                            <div class="input-group-append">
+                                <button class="btn btn-secondary" type="button">
+                                    ค้นหา
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="en-th text-right">
+                        <a href="#">
+                            <img src="assets/img/flag_en.png" alt="">
+                        </a>
+                    </div>
+                    <div class="order-box">
+                        <div class="tab-order w-100 d-flex flex-wrap">
+                            <div class="wishlist w-25" id="btnwishlist">
+                                <i class="fas fa-heart"></i>
+                                <div class="count">2</div>
+                            </div>
+                            <div class="cart-shop w-25" id="btncartlist">
+                                <i class="far fa-shopping-basket"></i>
+                                <div class="count">2</div>
+                            </div>
+                            <div class="cart w-50">
+                                <a href="count.html"><p>ตะกร้าสินค้า</p></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="category-menu">
+                <div class="container">
+                    <ul>
+                        <li class="category-list">
+                            <a href="#">หมวดหมู่&nbsp;&nbsp;
+                                <i class="fas fa-caret-down"></i>
+                            </a>
+                            <ul class="sub-menulist">
+                                <li><a href="products.html">หมวดหมู่ 1</a></li>
+                                <li><a href="products.html">หมวดหมู่ 2</a></li>
+                                <li><a href="products.html">หมวดหมู่ 3</a></li>
+                                <li><a href="products.html">หมวดหมู่ 4</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="brand.html">แบรนด์</a>
+                        </li>
+                        <li>
+                            <a href="products-new.html">สินค้ามาใหม่</a>
+                        </li>
+                        <li>
+                            <a href="products.html">สินค้าขายดี</a>
+                        </li>
+                        <li>
+                            <a href="products.html">โปรโมชั่น</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    <!-- Contact-US -->
+    <section class="section-page -about">
+        <div class="wrap-banner text-center">
+            <h2 class="title text-white">ตะกร้าสินค้า</h3>
+        </div>
+        <div class="container">
+            <div class="bread-crumb">
+                <p>
+                    <i class="fas fa-home"></i>&nbsp;&nbsp;หน้าแรก /
+                    <span>ตะกร้าสินค้า</span>
+                </p>
+            </div>
+            <div class="box-wrapper -count">
+                <div class="list-productscart">
+                    <div class="head-cart">
+                        <div class="cart-products -head w-100 d-flex flex-wrap">
+                            <div class="item">
+
+                            </div>
+                            <div class="item">
+                                <h3 class="title">
+                                    Product
+                                </h3>
+                            </div>
+                            <div class="item">
+                                <h3 class="title">
+                                    Price
+                                </h3>
+                            </div>
+                            <div class="item">
+                                <p class="title">
+                                    Quantity
+                                </p>
+                            </div>
+                            <div class="item">
+                                <h3 class="title">
+                                    Total
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cart-products w-100 d-flex flex-wrap align-items-center justify-content-center">
+                        <div class="item">
+                            <div class="pd-box w-100 d-flex flex-wrap align-items-center justify-content-center">
+                                <div class="in-pd -close">
+                                    <div class="close-order">
+                                        <i class="fal fa-times"></i>
+                                    </div>
+                                </div>
+                                <div class="in-pd">
+                                    <figure class="thumb">
+                                        <img src="assets/img/products-hot1.png" alt="">
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <p class="title">
+                                COSMETIC WHITENING FACE LOTION
+                            </p>
+                        </div>
+                        <div class="item">
+                            <p class="price-products">390 BATH</p>
+                        </div>
+                        <div class="item">
+                            <p class="title">
+                                Quantity
+                            </p>
+                        </div>
+                        <div class="item">
+                            <div class="price">390 BATH</div>
+                        </div>
+                    </div>
+                    <div class="cart-products w-100 d-flex flex-wrap align-items-center justify-content-center">
+                        <div class="item">
+                            <div class="pd-box w-100 d-flex flex-wrap align-items-center justify-content-center">
+                                <div class="in-pd -close">
+                                    <div class="close-order">
+                                        <i class="fal fa-times"></i>
+                                    </div>
+                                </div>
+                                <div class="in-pd">
+                                    <figure class="thumb">
+                                        <img src="assets/img/products-hot1.png" alt="">
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <p class="title">
+                                COSMETIC WHITENING FACE LOTION
+                            </p>
+                        </div>
+                        <div class="item">
+                            <p class="price-products">390 BATH</p>
+                        </div>
+                        <div class="item">
+                            <p class="title">
+                                Quantity
+                            </p>
+                        </div>
+                        <div class="item">
+                            <div class="price">390 BATH</div>
+                        </div>
+                    </div>
+                    <div class="cart-products w-100 d-flex flex-wrap align-items-center justify-content-center">
+                        <div class="item">
+                            <div class="pd-box w-100 d-flex flex-wrap align-items-center justify-content-center">
+                                <div class="in-pd -close">
+                                    <div class="close-order">
+                                        <i class="fal fa-times"></i>
+                                    </div>
+                                </div>
+                                <div class="in-pd">
+                                    <figure class="thumb">
+                                        <img src="assets/img/products-hot1.png" alt="">
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <p class="title">
+                                COSMETIC WHITENING FACE LOTION
+                            </p>
+                        </div>
+                        <div class="item">
+                            <p class="price-products">390 BATH</p>
+                        </div>
+                        <div class="item">
+                            <p class="title">
+                                Quantity
+                            </p>
+                        </div>
+                        <div class="item">
+                            <div class="price">390 BATH</div>
+                        </div>
+                    </div>
+                    <div class="head-cart -foot">
+                        <div class="cart-products -foot w-100 d-flex flex-wrap">
+                            <div class="item -coupon">
+                                <div class="coupon-box w-100 d-flex flex-wrap align-items-center justify-content-center">
+                                    <div class="box-cou w-50">
+                                        <p>Coupon :</p>
+                                    </div>
+                                    <div class="box-cou -input w-50">
+                                        <input type="text" class="form-control" placeholder="Coupon Code">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item -apply">
+                                <div class="apply-tab w-25">
+                                    <a href="#" class="btn-pri -skypri">APPLY COUPON</a>
+                                </div>
+                            </div>
+                            <div class="item -update">
+                                <a href="#" class="btn-pri -easy">UPDATE CART</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box-count">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <div class="section-header -page text-center">
+                                <h3 class="title">Related&nbsp;
+                                    <span>Products</span>
+                                </h3>
+                            </div>
+                            <div class="slide-boxnews">
+                                <ul id="new-slider1" class="new-slider text-center">
+                                    <li>
+                                       
+                                                <div class="item-slide">
+                                                        <div class="new-tag">
+                                                              
+                                                            <img src="assets/img/new-tag.png" alt="">
+                                                     
+                                                        </div>
+                                                        <figure class="thumbnail">
+                                                                <a href="products-detail.html">
+                                                            <img src="assets/img/newproducts1.png" alt="">
+                                                            </a>
+                                                        </figure>
+                                                        <div class="caption">
+                                                            <h4 class="title pt-2 ">
+                                                                COSMETIC WHITENING
+                                                                <br>FACE LOTION
+                                                            </h4>
+                                                            <p class="category pt-2 pb-2">Brand Name</p>
+                                                            <div class="btn-shop mt-3">
+                                                                <div class="icon-btn">
+                                                                    <i class="fas fa-shopping-basket"></i>
+                                                                </div>
+                                                                <a href="#" class="btn-shop">ADD TO CART</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                    
+                                    </li>
+                                    <li>
+                                        
+                                        <div class="item-slide">
+                                            <div class="new-tag">
+                                            
+                                                <img src="assets/img/new-tag.png" alt="">
+                                           
+                                            </div>
+                                            <figure class="thumbnail">
+                                                    <a href="products-detail.html">
+                                                <img src="assets/img/newproducts2.png" alt="">
+                                                </a>
+                                            </figure>
+                                            <div class="caption">
+                                                <h4 class="title pt-2 ">
+                                                    COSMETIC WHITENING
+                                                    <br>FACE LOTION
+                                                </h4>
+                                                <p class="category pt-2 pb-2">Brand Name</p>
+                                                <div class="btn-shop mt-3">
+                                                    <div class="icon-btn">
+                                                        <i class="fas fa-shopping-basket"></i>
+                                                    </div>
+                                                    <a href="#" class="btn-shop">ADD TO CART</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                      
+                                    </li>
+                                    <li>
+                                         
+                                        <div class="item-slide">
+                                            <div class="new-tag">
+                                                <img src="assets/img/new-tag.png" alt="">
+                                            </div>
+                                            <figure class="thumbnail">
+                                                    <a href="products-detail.html">
+                                                <img src="assets/img/newproducts3.png" alt="">
+                                                </a>
+                                            </figure>
+                                            <div class="caption">
+                                                <h4 class="title pt-2 ">
+                                                    COSMETIC WHITENING
+                                                    <br>FACE LOTION
+                                                </h4>
+                                                <p class="category pt-2 pb-2">Brand Name</p>
+                                                <div class="btn-shop mt-3">
+                                                    <div class="icon-btn">
+                                                        <i class="fas fa-shopping-basket"></i>
+                                                    </div>
+                                                    <a href="#" class="btn-shop">ADD TO CART</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                      
+                                    </li>
+                                    <li>
+                                           
+                                        <div class="item-slide">
+                                            <div class="new-tag">
+                                                <img src="assets/img/new-tag.png" alt="">
+                                            </div>
+                                            <figure class="thumbnail">
+                                                    <a href="products-detail.html">
+                                                <img src="assets/img/newproducts4.png" alt="">
+                                                </a>
+                                            </figure>
+                                            <div class="caption">
+                                                <h4 class="title pt-2 ">
+                                                    COSMETIC WHITENING
+                                                    <br>FACE LOTION
+                                                </h4>
+                                                <p class="category pt-2 pb-2">Brand Name</p>
+                                                <div class="btn-shop mt-3">
+                                                    <div class="icon-btn">
+                                                        <i class="fas fa-shopping-basket"></i>
+                                                    </div>
+                                                    <a href="#" class="btn-shop">ADD TO CART</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                      
+                                    </li>
+                                    <li>
+                                         
+                                        <div class="item-slide">
+                                            <div class="new-tag">
+                                                <img src="assets/img/new-tag.png" alt="">
+                                            </div>
+                                            <figure class="thumbnail">
+                                                    <a href="products-detail.html">
+                                                <img src="assets/img/newproducts1.png" alt="">
+                                                </a>
+                                            </figure>
+                                            <div class="caption">
+                                                <h4 class="title pt-2 ">
+                                                    COSMETIC WHITENING
+                                                    <br>FACE LOTION
+                                                </h4>
+                                                <p class="category pt-2 pb-2">Brand Name</p>
+                                                <div class="btn-shop mt-3">
+                                                    <div class="icon-btn">
+                                                        <i class="fas fa-shopping-basket"></i>
+                                                    </div>
+                                                    <a href="#" class="btn-shop">ADD TO CART</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                      
+                                    </li>
+                                    <li>
+                                        <div class="item-slide">
+                                            <div class="new-tag">
+                                                <img src="assets/img/new-tag.png" alt="">
+                                            </div>
+                                            <figure class="thumbnail">
+                                                    <a href="products-detail.html">
+                                                <img src="assets/img/newproducts2.png" alt="">
+                                                </a>
+                                            </figure>
+                                            <div class="caption">
+                                                <h4 class="title pt-2 ">
+                                                    COSMETIC WHITENING
+                                                    <br>FACE LOTION
+                                                </h4>
+                                                <p class="category pt-2 pb-2">Brand Name</p>
+                                                <div class="btn-shop mt-3">
+                                                    <div class="icon-btn">
+                                                        <i class="fas fa-shopping-basket"></i>
+                                                    </div>
+                                                    <a href="#" class="btn-shop">ADD TO CART</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="item-slide">
+                                            <div class="new-tag">
+                                                <img src="assets/img/new-tag.png" alt="">
+                                            </div>
+                                            <figure class="thumbnail">
+                                                    <a href="products-detail.html">
+                                                <img src="assets/img/newproducts3.png" alt="">
+                                                </a>
+                                            </figure>
+                                            <div class="caption">
+                                                <h4 class="title pt-2 ">
+                                                    COSMETIC WHITENING
+                                                    <br>FACE LOTION
+                                                </h4>
+                                                <p class="category pt-2 pb-2">Brand Name</p>
+                                                <div class="btn-shop mt-3">
+                                                    <div class="icon-btn">
+                                                        <i class="fas fa-shopping-basket"></i>
+                                                    </div>
+                                                    <a href="#" class="btn-shop">ADD TO CART</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-5">
+                            <h2 class="title text-pri">Cart Totals</h2>
+                            <div class="box-in">
+                                <div class="total-boxin -top w-100 d-flex flex-wrap align-items-center justify-content-center">
+                                    <div class="item w-25">
+                                        <h3 class="title">Subtotal</h3>
+                                    </div>
+                                    <div class="item w-75">
+                                        <p class="price-total">780 BATH</p>
+                                    </div>
+                                </div>
+                                <div class="total-boxin w-100 d-flex flex-wrap align-items-center justify-content-center">
+                                    <div class="item w-25">
+                                        <h3 class="title">Shipping</h3>
+                                    </div>
+                                    <div class="item w-75">
+                                        <ul class="total-list">
+                                            <li>Free shipping</li>
+                                            <li>Calculate shipping</li>
+                                            <li>
+                                                <select class="form-control">
+                                                    <option>Thailand</option>
+                                                </select>
+                                            </li>
+                                            <li>
+                                                <select class="form-control">
+                                                    <option>Select an Option</option>
+                                                </select>
+                                            </li>
+                                            <li>
+                                                <input type="text" class="form-control" placeholder="Town / City">
+                                            </li>
+                                            <li>
+                                                <input type="text" class="form-control" placeholder="Postcode / ZIP">
+                                            </li>
+                                            <li class="w-50">
+                                                <a href="#" class="btn-pri -sky">UPDATE TOTALS</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="total-boxin w-100 d-flex flex-wrap align-items-center justify-content-center">
+                                    <div class="item w-25">
+                                        <h3 class="title">Total</h3>
+                                    </div>
+                                    <div class="item w-75">
+                                        <p class="price-total">780 BATH</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="btn-total pt-2">
+                                <a href="#" class="btn-pri -pri">PROCEED TO CHECKOUT</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+   <!-- Main-Footer -->
+   <footer class="main-footer">
+        <div class="container">
+            <div class="footer-line">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="box-footer">
+                            <div class="logo-footer">
+                                <img src="assets/img/logo-footer.png" alt="">
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
+                                massa.
+                            </p>
+                            <ul class="social-footer">
+                                <li>
+                                    <a href="#">
+                                        <i class="fab fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fab fa-youtube"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <h4 class="title">ช่วยเหลือ</h4>
+                        <ul>
+                            <li>
+                                <a href="condition-services.html">สั่งซื้ออย่างไร</a>
+                            </li>
+                            <li>
+                                <a href="condition-services.html">วิธีการชำระสินค้า</a>
+                            </li>
+                            <li>
+                                <a href="condition-services.html">การจัดส่ง</a>
+                            </li>
+                            <li>
+                                <a href="condition-services.html">คำถามที่พบบ่อย</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2">
+                        <h4 class="title">เมนูหลัก</h4>
+                        <ul>
+                            <li>
+                                <a href="index.html">หน้าแรก</a>
+                            </li>
+                            <li>
+                                <a href="about.html">เกี่ยวกับบริษัท</a>
+                            </li>
+                            <li>
+                                <a href="blog.html">ข่าวสารและสาระความรู้</a>
+                            </li>
+                            <li>
+                                <a href="contact-us.html">ติดต่อเรา</a>
+                            </li>
+                            <li>
+                                <a href="problem-service.html">แจ้งปัญหา</a>
+                            </li>
+                            <li>
+                                <a href="condition-services.html">นโยบายในการใช้งาน</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2">
+                        <h4 class="title">สินค้า</h4>
+                        <ul>
+                            <li>
+                                <a href="products.html">สินค้ามาใหม่</a>
+                            </li>
+                            <li>
+                                <a href="products.html">สินค้ามาแรง</a>
+                            </li>
+                            <li>
+                                <a href="brand.html">แบรนด์</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3">
+                        <h3 class="title">ติดตามข่าวสาร</h3>
+                        <p class="pt-2 pb-3">ลงทะเบียนเพื่อติดตามข่าวสารจากทางเราโดยกรอกอีเมล์ลงในช่องด้านล่าง</p>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter Your Email Here">
+                            <a href="#" class="btn-pri">ลงทะเบียนติดตามข่าวสาร</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright text-center">
+            <p>
+                <i class="fal fa-copyright"></i>&nbsp;COPYRIGHT 2018</p>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="assets/vendor/light-slider/js/lightslider.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
